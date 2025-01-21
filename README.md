@@ -1,6 +1,7 @@
 # GET Notes
 
 Getting all notes
+
 ``GET http://localhost:8080/api/notes``
 
 ```sh
@@ -15,6 +16,7 @@ Getting all notes
 # GET Notes (by id)
 
 Getting certain note by id
+
 ``GET http://localhost:8080/api/notes/{id}``
 
 ```sh
@@ -29,6 +31,7 @@ Getting certain note by id
 # PUT note
 
 Update the note
+
 ``PUT http://localhost:8080/api/notes/{id}``
 
 ```sh
@@ -46,6 +49,7 @@ If all goes well:
 # DELETE note
 
 Change the note
+
 ``DELETE http://localhost:8080/api/notes/{id}``
 
 If all goes well:
@@ -55,6 +59,7 @@ If all goes well:
 # POST note
 
 Post the note
+
 ``POST http://localhost:8080/api/notes``
 
 ```sh
